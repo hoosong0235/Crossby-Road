@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4457588360469601707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2327369583537422206}
+  - component: {fileID: 9081807753418818535}
+  - component: {fileID: 3238300038950910338}
+  - component: {fileID: -2596423710524551147}
+  m_Layer: 0
+  m_Name: VehicleGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2327369583537422206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4457588360469601707}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: -30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9081807753418818535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4457588360469601707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e498e050d54a44badeb50efe4bd72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 100000, guid: f7a55e5059711874eb7d91b077790a9e, type: 3}
+  - {fileID: 100000, guid: f29900257ae69fd4186b07138257f17b, type: 3}
+  - {fileID: 100000, guid: 5813dc7a12a7b6045a9148014b9bffbd, type: 3}
+  - {fileID: 100000, guid: 615c2a6d7302a0341807f2d7ee8e6dc4, type: 3}
+  - {fileID: 100000, guid: d865e4eadc1d8ed4696b713e601c34c3, type: 3}
+  - {fileID: 100000, guid: d621d2b2b4b0aa1409bcfeb7002fd159, type: 3}
+  - {fileID: 100000, guid: e98fe7447005f2543b248e8447a30be9, type: 3}
+  - {fileID: 100000, guid: 03488ff9ce1a37347ac25881e7c693f2, type: 3}
+  - {fileID: 100000, guid: cd8bc91907e74454e9c9f47c49c66329, type: 3}
+  - {fileID: 100000, guid: a291a905d5483fa4c86ac9353e7d7707, type: 3}
+  - {fileID: 100000, guid: 40ec57ad25f6e9442826bcc9f8227c9b, type: 3}
+  - {fileID: 100000, guid: dbbd85f60d7fbfd4c9359adca1eb1dbd, type: 3}
+  - {fileID: 100000, guid: 5e8d8401ad54d8348b25570dc1ade3f3, type: 3}
+  - {fileID: 100000, guid: 5d9c35a615587c04290658539400d9c1, type: 3}
+  - {fileID: 100000, guid: ab5a39a5307596b4c86d73a7a47510d8, type: 3}
+  - {fileID: 100000, guid: 5920900774670b942bd3865f898c3767, type: 3}
+  - {fileID: 100000, guid: 636b9e1ca3cbd144680237bac344da23, type: 3}
+  - {fileID: 100000, guid: 1f0f78e77c7427f48a72935fe85910d5, type: 3}
+  - {fileID: 100000, guid: fd4d54c2196b8a946bd25585a4e19e61, type: 3}
+  - {fileID: 100000, guid: e396c5680a5b13b429c959f26adec319, type: 3}
+  - {fileID: 100000, guid: 517eafa4ac5a8144494e6f1874c23940, type: 3}
+--- !u!54 &3238300038950910338
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4457588360469601707}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &-2596423710524551147
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4457588360469601707}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
