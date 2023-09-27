@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
     float jumpTimer, jumpTime;
     float idleHeight, idlePosition, idleScale;
     float idleTimer, idleTime;
-    bool isJumping, isPressing = false;
+    bool isJumping = false;
     public GameObject ParticleGenerator;
     GameObject particleGenerator;
     public HashSet<float> destroyed;
@@ -102,7 +102,6 @@ public class PlayerController : MonoBehaviour
 
             case TouchPhase.Ended:
                 dragDir = touch.position - touchPos;
-                print(dragDir.magnitude);
 
                 if (dragDir.magnitude < dragThreshold) return Drag.Touch;
 
@@ -227,10 +226,6 @@ public class PlayerController : MonoBehaviour
                 isJumping = false;
                 normalize();
             }
-        }
-        else if (isPressing)
-        {
-
         }
         else
         {
