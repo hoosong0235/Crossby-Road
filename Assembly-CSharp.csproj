@@ -42,9 +42,11 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ScoreController.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\StartController.cs" />
      <Compile Include="Assets\Scripts\VehicleController.cs" />
-     <Compile Include="Assets\Scripts\TemplateController.cs" />
      <Compile Include="Assets\Scripts\BestScoreController.cs" />
+     <Compile Include="Assets\Scripts\PauseController.cs" />
+     <Compile Include="Assets\Scripts\EndController.cs" />
      <Compile Include="Assets\Scripts\TerrainGenerator.cs" />
      <Compile Include="Assets\Scripts\BorderController.cs" />
      <Compile Include="Assets\Scripts\DestroyerController.cs" />
@@ -678,35 +680,14 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    <Reference Include="Unity.VectorGraphics">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VectorGraphics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
         <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -717,17 +698,14 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
         <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
@@ -735,17 +713,56 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    <Reference Include="Unity.VectorGraphics.Editor">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.003">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
         <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.003">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>C:\Users\hooso\OneDrive\바탕 화면\School\University\Junior\Fall\Unity for Games\Project 1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

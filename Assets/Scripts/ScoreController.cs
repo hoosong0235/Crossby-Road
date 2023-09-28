@@ -5,21 +5,24 @@ using UnityEngine.UI;
 
 public class ScoreController : MonoBehaviour
 {
+    public GameObject player;
     Text text;
     Transform playerTransform;
+    PlayerController playerController;
     int score, newScore, destroyed = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         text = gameObject.GetComponent<Text>();
-        playerTransform = GameObject.Find("Player").GetComponent<Transform>();
+        playerTransform = player.GetComponent<Transform>();
+        playerController = player.GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        destroyed = GameObject.Find("Player").GetComponent<PlayerController>().destroyed.Count;
+        destroyed = playerController.destroyed.Count;
 
         newScore = (int)playerTransform.position.x / 5 + destroyed;
         if (newScore > score)

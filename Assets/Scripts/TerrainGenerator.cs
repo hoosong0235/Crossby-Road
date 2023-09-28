@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class script : MonoBehaviour
 {
-    public GameObject DarkGrassPrefab, GrassPrefab, RoadPrefab, SplitPrefab, TreePrefab, RockPrefab, VehicleGenerator;
+    public GameObject DarkGrassPrefab, GrassPrefab, RoadPrefab, SplitPrefab, TreePrefab, RockPrefab, VehicleGenerator, player;
     GameObject terrain, split, decoration, vehicleGenerator;
     float x, z, random;
     int numGrass = 5;
@@ -81,7 +81,7 @@ public class script : MonoBehaviour
     void Start()
     {
         currRoad = false;
-        playerTransform = GameObject.Find("Player").transform;
+        playerTransform = player.transform;
 
         for (x = 5f; x < 75f; x += 5f) generate();
     }

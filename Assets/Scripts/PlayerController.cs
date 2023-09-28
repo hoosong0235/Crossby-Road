@@ -22,6 +22,7 @@ enum Terrain
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject endController;
     Touch touch;
     Drag drag;
     Vector2 touchPos, dragDir, dragVector;
@@ -263,16 +264,16 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene(0);
+                endController.SetActive(true);
             }
         }
         else if (other.gameObject.tag == "LargeVehicle")
         {
-            SceneManager.LoadScene(0);
+            endController.SetActive(true);
         }
         else if (other.gameObject.tag == "Decoration")
         {
-            SceneManager.LoadScene(0);
+            endController.SetActive(true);
         }
         else
         {

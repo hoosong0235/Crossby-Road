@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class BorderController : MonoBehaviour
 {
-
+    public GameObject player;
     Transform playerTransform;
     float newX;
 
     // Start is called before the first frame update
     void Start()
     {
-        this.playerTransform = GameObject.Find("Player").GetComponent<Transform>();
+        this.playerTransform = player.GetComponent<Transform>();
     }
 
     // Update is called once per frame
