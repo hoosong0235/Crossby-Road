@@ -5,12 +5,20 @@
 <!-- Brainstorm a concept for your VR experience, drawing inspiration from the articles.
 Sketch a basic design for your virtual environment, considering elements like nature, Earth, space, wildlife, humanity, and the emotional impact you want to convey. -->
 
+Inspired of following game, Crossy Road, I decided to develop the endless hopper mobile game similar to it. I will implement some basic functionalities of the game, such as grass terrain, road terrain, vehicle, player, and user interface including button, score, and high score.
+
+<blockquote>
+Crossy Road is the 8-bit endless arcade hopper that started it all. Collect custom characters and navigate freeways, railroads, rivers and much more.
+</blockquote>
+
+<div align="right">
+    <a href="https://www.crossyroad.com/  ">https://www.crossyroad.com/</a>
+</div>
+
 <p align="center">
-    <img src="/ReadmeAssets/CrossyRoad1.webp" width="50%">
-    <img src="/ReadmeAssets/CrossyRoad2.webp" width="50%">
+    <img src="/ReadmeAssets/CrossyRoad.webp">
 </p>
 
-https://www.crossyroad.com/  
 https://play.google.com/store/apps/details?id=com.yodo1.crossyroad&hl=en_US&gl=US  
 https://apps.apple.com/us/app/crossy-road/id924373886
 
@@ -32,16 +40,29 @@ Implement basic user interactions, such as the ability to look around and naviga
 
 ### 1. Player
 
-### 2. Grass
+<a href="/Assets/Scripts/PlayerController.cs">🔥 PlayerController.cs</a>
 
-### 3. Road
+### 2. Camera, and Border
+
+<a href="/Assets/Scripts/CameraController.cs">🔥 CameraController.cs</a>  
+<a href="/Assets/Scripts/BorderController.cs">🔥 BorderController.cs</a>
+
+### 3. Grass
+
+<a href="/Assets/Scripts/TerrainGenerator.cs">🔥 TerrainGenerator.cs</a>
+
+### 4. Road
+
+<a href="/Assets/Scripts/TerrainGenerator.cs">🔥 TerrainGenerator.cs</a>  
+<a href="/Assets/Scripts/VehicleGenerator.cs">🔥 VehicleGenerator.cs</a>  
+<a href="/Assets/Scripts/VehicleController.cs">🔥 VehicleController.cs</a>
 
 ## Phase 4: Emotional Impact
 
 <!-- Students will focus on creating an emotional impact in their VR experience, drawing from the readings.
 Consider using lighting, sound, and storytelling elements to evoke specific emotions within users. -->
 
-TODO: Youtube Video
+[![](ReadmeAssets/Thumbnail%201.png)](https://youtu.be/WVmYFeS8sS4)
 
 ## Phase 5: Testing and Iteration
 
@@ -50,7 +71,9 @@ Gather feedback from peers and make necessary adjustments to enhance the user ex
 
 ### 1. Optimization
 
-### 2. UI, UX
+### 2. User Interface, and User Experience
+
+### 3. Sound
 
 ## Phase 3: Game Development
 
@@ -59,7 +82,26 @@ Implement basic user interactions, such as the ability to look around and naviga
 
 ### 1. Optimization
 
-### 2. UI, UX
+<a href="/Assets/Scripts/Destroyer.cs">🔥 Destroyer.cs</a>  
+<a href="/Assets/Scripts/DestroyerController.cs">🔥 DestroyerController.cs</a>
+
+### 2. User Interface, and User Experience
+
+#### 1) Start, and End Screen
+
+<a href="/Assets/Scripts/StartController.cs">🔥 StartController.cs</a>  
+<a href="/Assets/Scripts/EndController.cs">🔥 EndController.cs</a>
+
+#### 2) Score, and Best Score
+
+<a href="/Assets/Scripts/ScoreController.cs">🔥 ScoreController.cs</a>  
+<a href="/Assets/Scripts/BestScoreController.cs">🔥 BestScoreController.cs</a>
+
+#### 3) Pause, and Resume Button
+
+<a href="/Assets/Scripts/PauseController.cs">🔥 PauseController.cs</a>
+
+### 5. Sound
 
 ## Phase 4: Emotional Impact
 
