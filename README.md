@@ -12,11 +12,11 @@ Crossy Road is the 8-bit endless arcade hopper that started it all. Collect cust
 </blockquote>
 
 <div align="right">
-    <a href="https://www.crossyroad.com/  ">https://www.crossyroad.com/</a>
+    <a href="https://www.crossyroad.com/">https://www.crossyroad.com/</a>
 </div>
 
 <p align="center">
-    <img src="/ReadmeAssets/CrossyRoad.webp">
+    <img src="/ReadmeAssets/CrossyRoad.webp" width="50%">
 </p>
 
 https://play.google.com/store/apps/details?id=com.yodo1.crossyroad&hl=en_US&gl=US  
@@ -33,6 +33,12 @@ Ensure that the assets align with your chosen theme and design. -->
 
 https://assetstore.unity.com/packages/3d/environments/simplepoly-city-low-poly-assets-58899
 
+<p align="center">
+    <img src="/ReadmeAssets/CasualGameSFXPack.webp">
+</p>
+
+https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
+
 ## Phase 3: Game Development
 
 <!-- Using the Unreal Engine VR Template, begin constructing your first environment.
@@ -42,18 +48,20 @@ Implement basic user interactions, such as the ability to look around and naviga
 
 <a href="/Assets/Scripts/PlayerController.cs">🔥 PlayerController.cs</a>
 
-### 2. Camera, and Border
+### 2. Camera
 
-<a href="/Assets/Scripts/CameraController.cs">🔥 CameraController.cs</a>  
+<a href="/Assets/Scripts/CameraController.cs">🔥 CameraController.cs</a>
+
+### 3. Border
+
 <a href="/Assets/Scripts/BorderController.cs">🔥 BorderController.cs</a>
 
-### 3. Grass
+### 4. Terrain
 
 <a href="/Assets/Scripts/TerrainGenerator.cs">🔥 TerrainGenerator.cs</a>
 
-### 4. Road
+### 5. Vehicle
 
-<a href="/Assets/Scripts/TerrainGenerator.cs">🔥 TerrainGenerator.cs</a>  
 <a href="/Assets/Scripts/VehicleGenerator.cs">🔥 VehicleGenerator.cs</a>  
 <a href="/Assets/Scripts/VehicleController.cs">🔥 VehicleController.cs</a>
 
@@ -71,9 +79,21 @@ Gather feedback from peers and make necessary adjustments to enhance the user ex
 
 ### 1. Optimization
 
+Too many objects are remain undestroyed even though they are not visible to the player. The first step to optimize user experience is to render only the object that is visible to the player. Considering the characteristic of the player and the camera, I will precisely designed the transform of the destroyer object, which destroys every object that collides to it.
+
 ### 2. User Interface, and User Experience
 
+Although the key functionalities such as player, camera, grass, road, and vehicle are implemented, we need to design some user interface and user experience in order to create an user friendly gameplay environment.
+
+First, I will implement start screen and end screen. Whenever the player is destroyed, The black background with game logo fades in. After short loading, the black background with game logo fades out, therefore creating a natural transition between two different games.
+
+Second, I will implement score and best score user interface. The score will be calculated as number of terrain passed + number of road in which the player have destoryed any car. The best score will be implemented with PlayerPrefs API in unity.
+
+Third, I will implement pause and resume button. If pause button pressed, the time scale of game is set to 0. Also, half transparent black background appears in order to give user the feeling of game is actually paused. If resume button pressed, the time scale of game is set to 0. And, half transparent black background disappears.
+
 ### 3. Sound
+
+Currently, there is no sound at all. I will add some casual sound into the game in order to increase the completeness. There will be four different kind of sounds, which are jump audio, car destroy audio, score audio, and player destroy audio. Each audio will be played in appropriate situation.
 
 ## Phase 3: Game Development
 
@@ -103,6 +123,9 @@ Implement basic user interactions, such as the ability to look around and naviga
 
 ### 5. Sound
 
+<a href="/Assets/Scripts/PlayerController.cs">🔥 PlayerController.cs</a>  
+<a href="/Assets/Sounds/">🔥 Sounds/</a>
+
 ## Phase 4: Emotional Impact
 
 <!-- Students will focus on creating an emotional impact in their VR experience, drawing from the readings.
@@ -127,4 +150,5 @@ https://apps.apple.com/us/app/crossy-road/id924373886
 
 #### 2) Asset
 
-https://assetstore.unity.com/packages/3d/environments/simplepoly-city-low-poly-assets-58899
+https://assetstore.unity.com/packages/3d/environments/simplepoly-city-low-poly-assets-58899  
+https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116

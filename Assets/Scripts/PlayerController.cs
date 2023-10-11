@@ -40,6 +40,8 @@ public class PlayerController : MonoBehaviour
     public GameObject ParticleGenerator;
     GameObject particleGenerator;
     public HashSet<float> destroyed;
+    AudioSource audioSource;
+    public AudioClip carDestroyAudio, jumpAudio, scoreAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +52,8 @@ public class PlayerController : MonoBehaviour
         destroyed = new HashSet<float>();
 
         dragVector = new Vector2(Mathf.Cos(25 * Mathf.Deg2Rad), Mathf.Sin(25 * Mathf.Deg2Rad));
+        
+        audioSource = gameObject.GetComponent<AudioSource>();
     }
 
     void animateIdle()
@@ -240,6 +244,8 @@ public class PlayerController : MonoBehaviour
             {
                 isJumping = setPosAng(drag);
                 normalize();
+
+                if (isJumping) audioSource.PlayOneShot(jumpAudio);
             }
         }
     }
@@ -253,10 +259,17 @@ public class PlayerController : MonoBehaviour
             {
                 particleGenerator = Instantiate(ParticleGenerator) as GameObject;
                 particleGenerator.transform.position = other.transform.position;
+
                 if (!destroyed.Contains(other.gameObject.transform.position.x))
                 {
                     ParticleSystem.MainModule main = particleGenerator.GetComponent<ParticleSystem>().main;
                     main.startColor = Color.yellow;
+
+                    audioSource.PlayOneShot(scoreAudio);
+                }
+                else 
+                {
+                    audioSource.PlayOneShot(carDestroyAudio);
                 }
 
                 destroyed.Add(other.gameObject.transform.position.x);
