@@ -70,7 +70,7 @@ Implement basic user interactions, such as the ability to look around and naviga
 <!-- Students will focus on creating an emotional impact in their VR experience, drawing from the readings.
 Consider using lighting, sound, and storytelling elements to evoke specific emotions within users. -->
 
-[![](ReadmeAssets/Thumbnail%201.png)](https://youtu.be/WVmYFeS8sS4)
+[![](ReadmeAssets/Thumbnail1.png)](https://youtu.be/WVmYFeS8sS4)
 
 ## Phase 5: Testing and Iteration
 
@@ -131,7 +131,7 @@ Implement basic user interactions, such as the ability to look around and naviga
 <!-- Students will focus on creating an emotional impact in their VR experience, drawing from the readings.
 Consider using lighting, sound, and storytelling elements to evoke specific emotions within users. -->
 
-TODO: Youtube Video
+[![](/ReadmeAssets/Thumbnail2.png)](https://youtu.be/7K-1QKpmDmQ)
 
 ## Phase 6: Documentation and Presentation
 
