@@ -1764,6 +1764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db19dae8f24fac848a54c41f68325207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 296568402}
 --- !u!114 &457032071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2034,6 +2035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17af3462614ccb41bc76605e1d8afb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 296568402}
 --- !u!64 &609993119
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2931,6 +2933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17af3462614ccb41bc76605e1d8afb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 296568402}
 --- !u!64 &941513622
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3251,6 +3254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseButton: {fileID: 1076172126}
   resumeButton: {fileID: 1749761243}
+  background: {fileID: 1888343613}
 --- !u!114 &1076172129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4660,6 +4664,7 @@ MonoBehaviour:
   TreePrefab: {fileID: 100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
   RockPrefab: {fileID: 100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
   VehicleGenerator: {fileID: 4457588360469601707, guid: 17ab2bf248bbb2341882460b028f2130, type: 3}
+  player: {fileID: 296568402}
 --- !u!1 &1660650673
 GameObject:
   m_ObjectHideFlags: 0
@@ -4945,6 +4950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseButton: {fileID: 1076172126}
   resumeButton: {fileID: 1749761243}
+  background: {fileID: 1888343613}
 --- !u!114 &1749761246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5825,6 +5831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bb9f60312d31942957a450ebbe734d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 296568402}
 --- !u!4 &1943091821 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3803607833163686522, guid: fd411c45fb80eb64f9eccb45d5104ca1, type: 3}
@@ -6164,6 +6171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7498582a3fa4a149a36379f80e58f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 296568402}
 --- !u!4 &2143755951
 Transform:
   m_ObjectHideFlags: 0
