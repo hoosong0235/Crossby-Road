@@ -1,11 +1,19 @@
 # Crossby Road
 
-## DEMO
+## Demo
 
 <div align="center">
     <a href="https://youtube.com/shorts/1ohYm9KXpuA?si=5Wfa_8Ymr4xOyGTk">
         <img src="/ReadmeAssets/Thumbnail3.png" style="width: 50%">
     </a>
+</div>
+
+## Screenshot
+
+<div align="center">
+    <img src="/ReadmeAssets/ScreenshotRaw.png" style="width: 25%">
+    <img src="/ReadmeAssets/ScreenshotRaw2.png" style="width: 25%">
+    <img src="/ReadmeAssets/ScreenshotRaw3.png" style="width: 25%">
 </div>
 
 ## Phase 1: Concept and Design
@@ -22,6 +30,8 @@ Crossy Road is the 8-bit endless arcade hopper that started it all. Collect cust
 <div align="right">
     <a href="https://www.crossyroad.com/">https://www.crossyroad.com/</a>
 </div>
+
+<br>
 
 <p align="center">
     <img src="/ReadmeAssets/CrossyRoad.webp" width="50%">
@@ -147,6 +157,10 @@ Consider using lighting, sound, and storytelling elements to evoke specific emot
 Present your VR experiences to the class, sharing your inspirations and insights. -->
 
 ### 1. How to Play
+
+#### 1) Android
+
+Install https://github.com/hoosong0235/Crossby-Road/releases/tag/v1.1.0
 
 ### 2. Reference
 
