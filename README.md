@@ -1,5 +1,9 @@
 # Crossby Road
 
+## Release
+
+https://play.google.com/store/apps/details?id=com.SeunghoJang.CrossbyRoad
+
 ## Demo
 
 <div align="center">
@@ -160,7 +164,12 @@ Present your VR experiences to the class, sharing your inspirations and insights
 
 #### 1) Android
 
-Install https://github.com/hoosong0235/Crossby-Road/releases/tag/v1.1.0
+https://play.google.com/store/apps/details?id=com.SeunghoJang.CrossbyRoad  
+https://github.com/hoosong0235/Crossby-Road/releases/download/v1.1.0/Crossby.Road.v1.1.0.apk
+
+#### 2) IOS
+
+N/A
 
 ### 2. Reference
 
